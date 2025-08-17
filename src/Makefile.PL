@@ -10,7 +10,7 @@ my @obj = map { $_ . $oe } qw(
 
 WriteMakefile(
   NAME         => 'Digest::MD6/src',
-  AUTHOR       => 'Andy Armstrong <andy@hexten.net>',
+  AUTHOR       => ['Andy Armstrong <andy@hexten.net>', 'Gabriele Gristina a.k.a. matrix'],
   VERSION_FROM => '../MD6.pm',
   #  OPTIMIZE     => '-g',
   clean => { FILES => "*.o *.lo *$oe" },

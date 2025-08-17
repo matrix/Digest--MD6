@@ -34,7 +34,7 @@ my @obj = ( "MD6$oe", make_obj_list( 'src', $oe, 'md6sum.c' ) );
 
 WriteMakefile(
   NAME         => 'Digest::MD6',
-  AUTHOR       => 'Andy Armstrong <andy@hexten.net>',
+  AUTHOR       => ['Andy Armstrong <andy@hexten.net>', 'Gabriele Gristina a.k.a. matrix'],
   VERSION_FROM => 'MD6.pm',
   PREREQ_PM    => {
     'Digest::base' => '1.00',

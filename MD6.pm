@@ -16,11 +16,11 @@ Digest::MD6 - Perl interface to the MD6 Algorithm
 
 =head1 VERSION
 
-This document describes Digest::MD6 version 0.12
+This document describes Digest::MD6 version 0.13
 
 =cut
 
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 
 our $HASH_LENGTH = 256;
 
